@@ -43,7 +43,13 @@ const Header = () => {
         </Link>
         <div className="profile-container">
           {userImage ? (
-            <FaRegUserCircle />
+            <div className="profile-image-container">
+              <FaRegUserCircle className="icon" />
+              <div>
+                <p className="profile-heading">Super Admin</p>
+                <p className="profile-heading">Admin@test.com</p>
+              </div>
+            </div>
           ) : (
             <img src={userImage} alt="userimg" />
           )}
