@@ -17,3 +17,9 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.header-content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

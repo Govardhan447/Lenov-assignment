@@ -1,0 +1,83 @@
+.overview-contaienr {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+.picker-container {
+  width: 150px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cdcccc;
+  border-radius: 7px;
+}
+
+.date-picker {
+  border: none;
+  outline: none;
+}
+
+.calendar {
+  font-size: 20px;
+}
+
+.date-pickers-container {
+  width: 320px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overview-heading {
+  display: flex;
+  width: 200px;
+  height: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.school-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.chart-container {
+  width: 30%;
+  height: 50%;
+  border: 1px solid #cdcccc;
+  border-radius: 7px;
+  box-shadow: 10px 10px 2px #d0cfcf;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recharts-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
